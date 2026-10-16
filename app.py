@@ -7,7 +7,7 @@ import streamlit as st
 
 st.set_page_config(page_title="IPL Analytics", layout="wide")
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 
 
 @st.cache_data
