@@ -17,8 +17,8 @@ Python, pandas, SQLite, Plotly, scikit-learn, Streamlit
 ## Model Results
 | Model | Accuracy |
 |---|---|
-| Logistic Regression | XX% |
-| Random Forest | XX% |
+| Logistic Regression | 81.7% |
+| Random Forest | 78.9% |
 
 ## Project Structure
 - `raw/`: original generated data
