@@ -12,8 +12,8 @@ ROOT = Path(__file__).resolve().parent
 
 @st.cache_data
 def load_data():
-    matches = pd.read_csv(ROOT / "data" / "processed" / "matches_clean.csv")
-    deliveries = pd.read_csv(ROOT / "data" / "processed" / "deliveries_clean.csv")
+    matches = pd.read_csv(ROOT / "processed" / "matches_clean.csv")
+    deliveries = pd.read_csv(ROOT / "processed" / "deliveries_clean.csv")
     return matches, deliveries
 
 
